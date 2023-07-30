@@ -4,13 +4,7 @@ class Solution:
         
         for arr in matrix:
             
-            if len(arr) == 1 and target in arr:
-                
-                return True
             
-            if len(arr) == 2 and target in arr:
-                
-                return True
         
             
         
