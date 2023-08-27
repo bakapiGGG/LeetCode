@@ -12,22 +12,15 @@ class Solution:
             if arr[i] + arr[j] < k:
                 i+= 1
 
-                
-
             elif arr[i] + arr[j] > k:
 
                 j-= 1
-
 
             else:
                 arr.pop(0)
                 arr.pop() 
                 c+= 1
-                
-                j-= 2
-
-                # i+=1
-                # j-=1
+                j-=2
                 
         return c
         
