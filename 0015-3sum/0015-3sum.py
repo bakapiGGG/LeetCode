@@ -41,14 +41,9 @@ class Solution:
                         
                         
                     res.add(temp)
-               
-
-                    # if temp not in res:
-
-#                         res.append(temp)
+              
                         
                     i += 1
-                    j -= 1
                     
                     
                     temp = []
