@@ -4,7 +4,7 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         
-        for i in range(k):
+        for _ in range(k):
     
             num = nums.pop()
 
